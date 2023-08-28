@@ -1,0 +1,171 @@
+/** Body **/
+
+body {
+    background: #FFF;
+}
+
+a {
+    color: #748eb3;
+    transition: .3s;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px!important;
+}
+
+span.app-title {
+    font-size: 35px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    color: #748eb3;
+}
+
+.app-header {
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    letter-spacing: 4px;
+}
+
+
+/** Body **/
+
+.calculatorArea {
+    margin: 50px 30px 0px 30px;
+    padding: 10px 0px 30px 10px;
+    background: #282828;
+}
+
+.btn {
+    border-radius: 10px;
+    box-shadow: 3px 4px 25px 0px #414141;
+    transition: .3s;
+}
+
+.btn:hover {
+    border-radius: 10px;
+    box-shadow: 2px 4px 7px -4px #fff;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+
+/** Header **/
+
+.resultArea {
+    background: #E6E6E6;
+    height: 80px;
+    font-weight: bold;
+    color: #282828;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 12px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.resultArea-md {
+    font-size: 35px;
+}
+
+.resultArea-sm {
+    font-size: 25px;
+}
+
+.resultArea-xsm {
+    font-size: 16px;
+}
+
+.resultArea-xxsm {
+    font-size: 10px;
+}
+
+
+/** Header **/
+
+
+/*** BODY ***/
+
+.calculator-body-part {
+    height: auto;
+    min-height: 200px;
+    margin-top: 20px;
+}
+
+.top-button {
+    background: #B082A9;
+    border: 1px solid #B082A9;
+    width: 19%;
+    margin: 0px 0px 0px 10px;
+}
+
+.top-button:hover {
+    background: #9A6F92;
+    border: 1px solid #9A6F92;
+}
+
+.btn-mem {
+    background: #8FBE8A;
+    border: 1px solid #8FBE8A;
+    width: 19%;
+    margin: 0px 0px 0px 10px;
+}
+
+.btn-mem:hover {
+    background: #6E9B6D;
+    border: 1px solid #6E9B6D;
+}
+
+.btn-digit-operation {
+    width: 15%;
+    margin: 0px 0px 0px 10px;
+}
+
+.btn-digit {
+    background: #758FB5;
+    border: 1px solid #758FB5;
+}
+
+.btn-digit:hover {
+    background: #85A2C9;
+    border: 1px solid #85A2C9;
+}
+
+.btn-operation {
+    background: #979797;
+    border: 1px solid #979797;
+}
+
+.btn-operation:hover {
+    background: #858585;
+    border: 1px solid #858585;
+}
+
+.btn-equal {
+    background: #BF6F69;
+    border: 1px solid #BF6F69;
+}
+
+.btn-equal:hover {
+    background: #AD655C;
+    border: 1px solid #AD655C;
+}
+
+
+/*** BODY ***/
+
+@media (min-width: 768px) {
+    .col-md-5 {
+        flex: 5 0 51.666667%;
+        max-width: 50.666667%;
+    }
+}
+
+p.copy-right {
+    color: #969696!important;
+    margin-right: 27px;
+}
